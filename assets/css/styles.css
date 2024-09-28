@@ -34,13 +34,24 @@ header {
 .nav-links a:hover {
     background-color: #555;
 }
-.img-tag {
+ 
+.hero-banner {
+    min-height: 92vh;
+    background: url(/assets/materials/istockphoto-926993450-612x612.jpg);
     background-position: center;
     position: relative;
-    width: 85%;
-    margin: 0;
-    padding: 0%;
 }
+
+.banner-content {
+    color: black;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+
 
 .description {
     font-size: 400%;
@@ -130,13 +141,43 @@ header {
 
 
 @media (max-width: 768px) {
-    .img-tag {
+    .banner-content {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-banner {
         flex-direction: column;
     }
 }
 
 @media (max-width: 768px) {
     .description {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    .card-container {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    .card-description {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    .card-title {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    .card-button {
         flex-direction: column;
     }
 }
