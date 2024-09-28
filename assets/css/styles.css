@@ -10,6 +10,7 @@ header {
 .navbar {
     background-color: #333;
     
+   
 }
 
 .nav-links {
@@ -45,9 +46,8 @@ header {
     font-size: 400%;
     font-family:'Times New Roman', Times, serif;
     font-family:monospace;
-    margin: 50px;
-    width: 75%;
-    border: 50px;
+    margin: 0;
+    width: 85%;
     padding: 100px;
     text-align: center;
     background-color: black;
